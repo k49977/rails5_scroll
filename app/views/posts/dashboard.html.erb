@@ -89,8 +89,8 @@
     <div id="infiniteScrollingContainer" class="col-md-2 pt-3 px-4 h-100 v-scroll" data-page="2">
       <div>
         <% @posts.each do |post| %>
-          <div>
-            <div><%= post.title %></div>
+          <div class="mb-1 card border-info shadow-sm">
+            <div class="card-body"><%= post.title %></div>
           </div>
         <% end %>    
       </div>
